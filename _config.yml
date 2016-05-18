@@ -1,12 +1,21 @@
+#Gems
+gems: ['jekyll-polyglot']
+
 # Site settings
 title:
 email:
-description: > # this means to ignore newlines until "baseurl:"
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:
+
+#i18n Polyglot
+languages: ["en", "es"]
+default_lang: "en"
+exclude_from_localization: ["js", "font-awesome", "fonts", "img", "css"]
+parallel_localization: true
 
 # Build settings
 markdown: kramdown
